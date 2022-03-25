@@ -6,7 +6,13 @@ namespace Cainos.PixelArtTopDown_Basic
 {
     public class TopDownCharacterController : MonoBehaviour
     {
-        public float speed;
+        public float speed = BaseStats.speed;
+        public float shotSpeed = BaseStats.shotSpeed;
+        public float fireRate = BaseStats.fireRate;
+        public float range = BaseStats.range;
+        public float damage = BaseStats.damage;
+        public float health = BaseStats.health;
+        public float resistance = BaseStats.resistance;
 
         private Animator animator;
 
