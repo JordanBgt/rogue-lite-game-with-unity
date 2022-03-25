@@ -7,4 +7,5 @@ public static class BaseStats
     public const float damage = 1f;
     public const float health = 3f;
     public const float resistance = 1f;
+    public const float timeInvincibility = 2f;
 }
